@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .1s;
+  }
+ 
+body {
+    font-family: Montserrat;
+    font-size: 20px;
+    background-color: #1E1E1E;
+    color: rgba(255, 107, 0, 1);
+    line-height: 1.5;
+    font-weight:500;
+    
+  }
+ 
+h1 {
+    font-size: 64px;
+    font-weight:600;
+
+}
+
+h6 {
+    text-align: center;
+    font-weight:500;
+    font-size: 20px;
+
+}
+
+a {
+    text-decoration: none;
+  }
+ 
+li {
+    list-style: none;
+  }
+
+.main{
+
+    margin: 0 auto;
+    max-width: 1200px;
+
+  }
+
+.nav-bar {
+
+    display: flex;
+ 
+    flex-wrap: wrap;
+ 
+    align-items: center;
+ 
+    justify-content:space-between;
+ 
+    padding: 20px;
+
+    padding-bottom: 0;
+ 
+    margin: 0 auto;
+ 
+    align-items: center;
+ 
+    height: auto;
+  }
+
+.contact{
+    background-color: rgba(255, 107, 0, 1);
+
+    border-radius: 5px;
+ 
+    transition: all .5s;
+
+    padding: 2px 14px;
+
+}
+
+.white{
+    color: white;
+}
+
+.logo-name{
+    text-align: center;
+}
+
+.product-container div{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.horizontal-line {
+    border-top: 1px solid rgba(255, 107, 0, 1); /* Цвет и стиль линии */
+
+}
+
+.description {
+    margin: 30px 0;
+}
+
+.columns{
+  grid-template-columns: repeat( 1, 1fr 1fr 1fr);
+  display: grid;
+  height: auto;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  margin-bottom: 70px;
+}
+
+/* .columns {
+  display: flex;
+  width: 1200px;
+  height: 763px;
+  column-gap: 30px;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+} */
+
+.col-child {
+  background-color: #D9D9D9;
+  border-radius: 15px;
+  text-align: center;
+  max-width: auto;
+
+}
+
+.col-child * {
+  color: black;
+
+}
+
+.col-child :nth-child(5){
+  height: 70px;
+}
+
+.col-child :nth-child(4),
+.second-line :nth-child(3) {
+  height: 65px;
+}
+
+.second-line :nth-child(2) {
+  height: 90px;
+}
+
+.col-child div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 370px;
+  height: 110px;
+  background-color: #FF6B00;
+  font-weight: bold;
+  border-radius: 15px 15px 0 0;
+  margin-bottom: 10px;
+}
+
+.col-child p{
+  padding: 8px;
+  border-bottom: 1pt solid grey;
+  font-size: 16px;
+
+}
+
+.col-child :last-child {
+  padding-bottom: 30px;
+  border: none;
+}
+
+.bottom {
+  margin: 35px 0;
+
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+
+}
+
+.author {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+
+}
